@@ -155,4 +155,83 @@ total: 2 errors, 2 warnings, 7 lines checked
 [01;32m1-compiler[0m      [01;32m3-name[0m       [01;32m5-printf.c[0m  README.md
 [?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# betty4[K 4-puts.c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
 [?2004l
-========== 4-puts.c 
+========== 4-puts.c ==========
+[31m4-puts.c:1: ERROR:[0m space required before that '!' (ctx:VxO)
+[31m4-puts.c:1: ERROR:[0m spaces preferred around that '/' (ctx:OxW)
+[33m4-puts.c:5: WARNING:[0m please, no spaces at the start of a line
+[33m4-puts.c:6: WARNING:[0m please, no spaces at the start of a line
+[31m4-puts.c:8: ERROR:[0m spaces required around that '=' (ctx:VxV)
+total: 3 errors, 2 warnings, 8 lines checked
+4-puts.c:3: warning: no description found for function main
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# bee[Ktty 4-puts.c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l
+========== 4-puts.c ==========
+[31m4-puts.c:1: ERROR:[0m space required before that '!' (ctx:VxO)
+[31m4-puts.c:1: ERROR:[0m spaces preferred around that '/' (ctx:OxW)
+[33m4-puts.c:5: WARNING:[0m please, no spaces at the start of a line
+[33m4-puts.c:6: WARNING:[0m please, no spaces at the start of a line
+[31m4-puts.c:8: ERROR:[0m spaces required around that '=' (ctx:VxV)
+total: 3 errors, 2 warnings, 8 lines checked
+4-puts.c:3: warning: no description found for function main
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# g[K./script 
+[?2004l[main adb6760] new update
+ Committer: root <root@MATEBOOK.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 149 insertions(+), 1 deletion(-)
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 3.68 KiB | 3.68 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/AhmedXFahmy/alx-low_level_programming.git
+   e2e3fcb..adb6760  main -> main
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# ls
+[?2004l[0m[01;32m0-preprocessor[0m  [01;32m2-assembler[0m  [01;32m4-puts.c[0m    [01;32m6-size.c[0m   [01;32mscript[0m
+[01;32m1-compiler[0m      [01;32m3-name[0m       [01;32m5-printf.c[0m  README.md
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# vim 4-puts.c 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;13r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[13;1H"4-puts.c" 8L, 140B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H#!/ bin / bash
+[35m#include [m[31m<stdio.h>[m[2;19H[K[3;1H[32mint[m main([32mvoid[m)[3;15H[K[4;1H{
+    puts([31m"[m[35m\"[m[31mProgramming is like building a multilingual puzzle"[m);
+    [38;5;130mreturn[m ([31m0[m);
+}
+GG=g
+[94m~                                                                                       [10;1H~                                                                                       [11;1H~                                                                                       [12;1H~                                                                                       [m[13;71H8,4[11CAll[8;4H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H#!/ bin / bash
+[38;5;81m#include [m[95m<stdio.h>[m
+[38;5;121mint[m main([38;5;121mvoid[m)
+{
+    puts([95m"[m[38;5;224m\"[m[95mProgramming is like building a multilingual puzzle"[m);
+    [93mreturn[m ([95m0[m);
+}
+GG=g
+[94m~                                                                                       [10;1H~                                                                                       [11;1H~                                                                                       [12;1H~                                                                                       [m[13;71H8,4[11CAll"4-puts.c" 8L, 140B[8;4H[?25h[?25l[13;61Hi[8;4H[13;61H [8;4H[13;1H[1m-- INSERT --[m[13;13H[K[13;71H8,4[11CAll[8;4H[?25h[?25lg[8;4H[K[13;73H3[8;3H[?25h[?25lg[8;3H[K[13;73H2[8;2H[?25h[?25lg[8;2H[K[13;73H1[8;1H[?25h[?25l[13;73H2[8;2H[?25h[?25l[8;1H[K[13;73H1[8;1H[?25h[?25l[94m~                                                                                       [m[4;1H[46m{
+
+
+}[m[13;71H7,2[7;2H[?25h[13;1H[K[7;1H[?25l[13;61H^[[7;1H[13;61H  [7;2H[13;71H7,1[11CAll[7;1H[?25h[?25l[13;61H:[7;1H[13;61H[K[13;1H:[?25hwq[?25l[?2004l[>4;m"4-puts.c" 7L, 135B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# g[Kbr[Ketty 54[K[K4-puts.c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l
+========== 4-puts.c ==========
+4-puts.c:2: warning: no description found for function main
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# betty 4-puts.c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l
+========== 4-puts.c ==========
+4-puts.c:6: warning: No description found for return value of 'main'
+main
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# betty 4-puts.c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l
+========== 4-puts.c ==========
+4-puts.c:6: warning: No description found for return value of 'main'
+main
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# betty 4-puts.c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
