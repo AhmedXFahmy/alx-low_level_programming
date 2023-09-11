@@ -468,4 +468,45 @@ main
       |                                  [01;35m[K|[m[K             [32m[K|[m[K
       |                                  [01;35m[Kint[m[K           [32m[Klong unsigned int[m[K
       |                                 [32m[K%ld[m[K
-[01m[K6-size.c:11:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong uns
+[01m[K6-size.c:11:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   11 |         printf("Size of a long int: [01;35m[K%d[m[K byte(s)\n", [32m[Ksizeof(long int)[m[K);
+      |                                     [01;35m[K~^[m[K             [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                      [01;35m[K|[m[K             [32m[K|[m[K
+      |                                      [01;35m[Kint[m[K           [32m[Klong unsigned int[m[K
+      |                                     [32m[K%ld[m[K
+[01m[K6-size.c:12:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   12 |         printf("Size of a long long int: [01;35m[K%d[m[K byte(s)\n", [32m[Ksizeof(long long int)[m[K);
+      |                                          [01;35m[K~^[m[K             [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [01;35m[K|[m[K             [32m[K|[m[K
+      |                                           [01;35m[Kint[m[K           [32m[Klong unsigned int[m[K
+      |                                          [32m[K%ld[m[K
+[01m[K6-size.c:13:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   13 |         printf("Size of a float: [01;35m[K%d[m[K byte(s)\n", [32m[Ksizeof(float)[m[K);
+      |                                  [01;35m[K~^[m[K             [32m[K~~~~~~~~~~~~~[m[K
+      |                                   [01;35m[K|[m[K             [32m[K|[m[K
+      |                                   [01;35m[Kint[m[K           [32m[Klong unsigned int[m[K
+      |                                  [32m[K%ld[m[K
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# ./[K[Kls
+[?2004l[0m[01;32m0-preprocessor[0m  [01;32m2-assembler[0m  [01;32m4-puts.c[0m    [01;32m6-size.c[0m   [01;32ma.out[0m
+[01;32m1-compiler[0m      [01;32m3-name[0m       [01;32m5-printf.c[0m  README.md  [01;32mscript[0m
+[?2004h]0;root@MATEBOOK: /home/hola/ALX/alx-low_level_programming/0x00-hello_worldroot@MATEBOOK:/home/hola/ALX/alx-low_level_programming/0x00-hello_world# ./[K/script 
+[?2004l[main 0756f13] new update
+ Committer: root <root@MATEBOOK.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 109 insertions(+), 1 deletion(-)
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing object
